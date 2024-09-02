@@ -1,4 +1,8 @@
+if (!process.env.SECRET_A) {
+	throw new Error('no secret!')
+}
+
 console.info({
 	a: process.env.SECRET_A,
-	a2: `Hellooooo: ${process.env.SECRET_A}`
+	a2: `Helloooxxxoo: ${process.env.SECRET_A}`
 })
