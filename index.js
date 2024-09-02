@@ -1,5 +1,5 @@
 if (!process.env.SECRET_A) {
-	throw new Error('no secret!')
+	throw new Error('no secrget!')
 }
 
 console.info({
