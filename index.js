@@ -3,6 +3,6 @@ if (!process.env.SECRET_A) {
 }
 
 console.info({
-	a: process.env.SECRET_A,
+	a: process.env.SECRET_A.length,
 	a2: `Helloooxxxoo: ${process.env.SECRET_A}`
 })
